@@ -11,6 +11,13 @@
 	    <version>4.13.2</version>
 	    <scope>test</scope>
 	</dependency>
+	  <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-test</artifactId>
+    <version>4.0.0-M3</version>
+    <scope>test</scope>
+</dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
@@ -42,3 +49,4 @@
         </plugins>
     </build>
 </project>
+
